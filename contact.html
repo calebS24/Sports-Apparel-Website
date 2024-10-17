@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Contact Us | ZypherFit</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <img src="images/logomain.png" alt="ZypherFit Logo" width="125px">
+            </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Contact Header -->
+    <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p>You're welcome to message us</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <div class="column">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62876.16049933098!2d76.22014753256529!3d9.953912992575242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1728506940519!5m2!1sen!2sin" 
+                loading="lazy" style="border:0; width: 100%; height: 400px; border-radius: 10px;"></iframe>
+        </div>
+
+        <div class="column">
+            <form action="/action_page.php" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="fullname" placeholder="Full Name" required>
+
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" name="phonenum" placeholder="Phone Number" required>
+
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="india">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="australia">Australia</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="ksa">Saudi Arabia</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
+                <button type="submit" onclick="alert('Message sent! Thank you.')">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <img src="Images/logomain.png">
+                </div>
+                
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS</p>
+                    <div class="app-logo">
+                        <img src="Images/google-play.png">
+                        <img src="Images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-1">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="mailto:calebsvarghese@gmail.com" target="_blank">Gmail</a></li>
+                        <li><a href="https://www.instagram.com/caleb.shaji.cs/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.whatsapp.com" target="_blank">WhatsApp</a></li>
+                        <li><a href="https://www.linkedin.com/in/calebsv" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.github.com/calebS24" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2024 - ZypherFit</p>
+        </div>
+    </div>
+</body>
+
+
+
+</html>

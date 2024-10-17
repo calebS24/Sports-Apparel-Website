@@ -1,0 +1,432 @@
+/*---------- Global Styles ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #a4a1a1;
+}
+
+p {
+    color: #6e6e6e;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+/*---------- Header Navigation ----------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    color: #c40000; /* Teal accent */
+}
+
+.menu-items:hover {
+    color: #222;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/*---------- Header Row Section ----------*/
+.header {
+    background: #0A0A23; /* Dark blue */
+}
+
+.header row {
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*---------- Header Content ----------*/
+.row .col-2 p {
+    color: rgb(255, 255, 255);
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    color: #4a4a4a;
+}
+
+.col-2 img {
+    max-width: 110%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: #1DB954;
+}
+
+.btn {
+    display: inline-block;
+    background: #FF4500;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #4d2111;
+}
+
+/*---------- About Section ----------*/
+.about-section h3 {
+    color: #76bd43;
+}
+
+.about-section .container .title {
+    color: white;
+}
+
+/*---------- Team Section ----------*/
+.team-section .title {
+    color: white;
+}
+
+/*---------- Featured Categories ----------*/
+.categories {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
+.col-3 img {
+    width: 100%;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #333;
+}
+
+.title::after {
+    content: '';
+    background: #db3036;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*---------- Featured Products and Ratings ----------*/
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    padding-left: 50px; 
+    padding-right: 50px; 
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4:hover {
+    transform: translateY(-10px);
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.rating .fa {
+    color: #d49f6a;
+}
+
+/*---------- Offers Section ----------*/
+.offer {
+    background-color: #0A0A23;
+    margin-top: 80px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.offer .offer-img {
+    max-width: 100%; /* Ensures the image stays within bounds */
+    padding: 10px;
+}
+
+.offer .col-2 p {
+    font-size: 20px; /* Reduced font size for a cleaner look */
+    color: #D3D3D3;
+}
+
+
+small {
+    color: #BBBBBB;
+}
+
+/*---------- Testimonials Section ----------*/
+.testimonial {
+    padding-top: 10px;
+    
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-15px);
+}
+
+.fa.fa-quote-left {
+    font-size: 35px;
+    color: #2c5f5b;
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+}
+
+/*---------- Brands Section ----------*/
+.brands {
+    margin: 35px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    padding: 25px;
+    width: 110%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}
+
+/*---------- Footer Section ----------*/
+.footer {
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer h3 {
+    color: #00ffc8;
+    margin-bottom: 20px;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    flex-basis: 23%;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    text-align: center;
+}
+
+.footer-col-1 img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #ff523b;
+}
+
+.footer .app-logo img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.footer hr {
+    margin-top: 40px;
+    border: none;
+    background-color: #b5b5b5;
+    height: 1px;
+}
+
+.footer .Copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+
+/*---------- Form Button ----------*/
+form button {
+    background-color: #070f1b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+/*---------- Media Queries for Mobile ----------*/
+/* Media Query for screens smaller than 800px */
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #222;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .menu-icon {
+        width: 28px;
+        margin-left: 20px;
+        display: block;
+    }
+}
+
+/* Media Query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
