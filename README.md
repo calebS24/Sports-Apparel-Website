@@ -21,7 +21,7 @@ ZypherFit is a modern, responsive e-commerce website focused on sports apparel a
 2. Open `index.html` in a web browser to view the website.
 
 ## Contact
-For inquiries, contact us at [calebsvarghese@gmail.com](mailto:calebsvarghese@gmail.com).
+For inquiries, contact me at [calebsvarghese@gmail.com](mailto:calebsvarghese@gmail.com).
 
 ## License
 This project is licensed under the MIT License.
