@@ -123,9 +123,21 @@ nav ul li a:hover {
     color: white;
 }
 
+.about-section .col-2 li{
+    color: white;
+}
+
 /*---------- Team Section ----------*/
 .team-section .title {
     color: white;
+}
+
+.team-section .col-3 h4{
+    color: white;
+}
+
+.team-section .col-3 p{
+    color: rgb(255, 149, 10);
 }
 
 /*---------- Featured Categories ----------*/
