@@ -18,7 +18,7 @@ ZypherFit is a modern, responsive e-commerce website focused on sports apparel a
     ```bash
     git clone https://github.com/calebS24/ZypherFit.git
     ```
-2. Open `index.html` in a web browser to view the website.
+2. Open `index.html` in a web browser to go through the website.
 
 ## Contact
 For inquiries, contact me at [calebsvarghese@gmail.com](mailto:calebsvarghese@gmail.com).
